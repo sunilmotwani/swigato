@@ -17,29 +17,38 @@
 
     -->
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- https://fonts.google.com/
     Search and Click on selected font. Click on + sign to Add. Click on View Selected Families Icon. Select and Copy the Link and CSS code. Paste in appropriate places. -->
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&family=Bree+Serif&display=swap" rel="stylesheet">
-
+    <style>
+        #li3{
+            background-color: rgb(249, 209, 149);
+            border-radius: 20px;
+        }
+    </style>
 </head>
 
 <body>
+    
+    <div id="top">
+        <a href="#welcome">Top</a>
+    </div>
     <div>
         <hr>
      </div>
     <!-- Navigation Bar  -->
     <nav id="navbar">
         <div id="logo">
-            <img src="images/logo.png" alt="Swigato.com">
+            <img src="logo.png" alt="Swigato.com">
         </div>
         <ul id="links">
             <!-- li.item{ <a href=""></a> }*4  -->
-            <li class="item"> <a href="index.html">Home</a> </li>
-            <li class="item"> <a href="services.html">Services</a> </li>
-            <li class="item"> <a href="clients.html">Our Clients</a> </li>
-            <li class="item"> <a href="contactus.html">Contact Us</a> </li>
+            <li class="item" id="li1"> <a href="index.html">Home</a> </li>
+            <li class="item" id="li2"> <a href="services.html">Services</a> </li>
+            <li class="item" id="li3"> <a href="clients.html">Our Clients</a> </li>
+            <li class="item" id="li4"> <a href="contactus.html">Contact Us</a> </li>
             <li class="item"> <a href="#footer">Social Media</a> </li>
         </ul>        
     </nav>
@@ -47,23 +56,23 @@
        <hr>
     </div>
     
-
+    <div id="welcome"></div>
     <section id="client-section">
         <h1 class="h-primary center">
             Our Clients
         </h1>
         <div id="clients">
             <div class="client-item">
-                <img src="images/sbi.png" alt="">
+                <img src="sbi.png" alt="">
             </div>
             <div class="client-item">
-                <img src="images/dell.png" alt="">
+                <img src="dell.png" alt="">
             </div>
             <div class="client-item">
-                <img src="images/microsoft.png" alt="">
+                <img src="microsoft.png" alt="">
             </div>
             <div class="client-item">
-                <img src="images/wipro.png" alt="">
+                <img src="wipro.png" alt="">
             </div>
         </div>
     </section>
@@ -77,7 +86,7 @@
             copyright &copy; www.swigato.com
         </div>
         <div id="social">
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="facebook.png" alt=""></a>
             
         </div>
     </section>
